@@ -1,0 +1,31 @@
+@media (min-width :481px) and (max-width : 768px)
+{
+body
+{
+   margin: 0;
+   padding: 0;
+}
+#header #heading1
+{
+   display: flex;
+   flex-direction: row;
+}
+ #heading1 .leftsidebar h6
+ {
+    font-size: 15px;
+ }
+#header #heading1 .social-media
+{
+    padding: 0;
+    margin-left: 54%;
+    font-size: 3px;  
+}
+.navbar-toggler
+{
+  margin-top: 5%;
+}
+.btn-close
+{
+   margin-left: 92%;
+}
+}
