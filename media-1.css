@@ -24,27 +24,33 @@
     font-size: 13px; 
     letter-spacing: 4px; 
 }
-.offcanvas-body
+#offcanvasNavbar .offcanvas-body
 {
-   background-color: rgb(234, 234, 234);
+   background-color:#fcbbbb;
+   width: 100%;
 }
 .navbar-toggler
 {
-  margin-top: 3%;
+  margin-top: 0%;
 }
 #offcanvasNavbar
 {
-   width: 80%;
+   width: 65%;
 }
 #offcanvasNavbar .offcanvas-header
 {
    width: 100%;
-   height: 70px;
+   height: 40px;
+   margin-left: 20%;
+   background-color: gray;
 }
-.offcanvas-header
+
+#offcanvasNavbar .navbar-nav .nav-item a
 {
-   width: 100%;
-   background-color: rgb(188, 188, 188) ;
+   width: 50%;
+   font-size: 10px;
+  margin-left: 1%;
+  color: black;
 }
 .container-fluid 
 {
@@ -54,24 +60,6 @@
 .logo
 {
    margin-top: 4%;
-}
-#offcanvasNavbar .offcanvas-body 
-{
-   width: 100%;
-}
-#offcanvasNavbar .navbar-nav li a
-{
-   font-size: 15px;
-  margin-left: 1%;
-}
-.navbar-toggler
-{
-  margin-top: 0%;
-}
-
-.service-head p
-{
-    font-size: 12px; 
 }
 .carousel-inner .contant
 {
@@ -83,7 +71,6 @@
 }
 .carousel-inner .carousel-item
 {
-   
     height: 200px;
 }
 .contant h2
@@ -92,7 +79,7 @@
    color: white;
    margin-left: 10%;
    line-height: 0.6cm;
-   margin-top: 14%;
+   margin-top: 13%;
 }
 #carouselExampleFade .carousel-inner .search-btn
 {
@@ -116,6 +103,17 @@
 {
    width: 10%;
 }
+#ourservices .container .service-head h3
+{
+    font-size: 22px; 
+    margin-left: 28%;
+}
+#ourservices .container .service-head p
+{
+    font-size: 12px; 
+    font-weight: 400;
+    margin-left: 5%;
+}
 .card-group .card
 {
     width: 75% ;
@@ -137,8 +135,8 @@
 }
 #ourservices .container .btn
 {
-    font-size: 8px; 
-    margin-left: 17%;
+    font-size: 10px; 
+    margin-left: 12%;
     background-color: white;
 }
 #ourservices .container .services-btn
@@ -146,9 +144,19 @@
     width: 150px;
     margin-left: 0%;
 }
-.bridal-head
+#brides .container2 .bridal-head h3
 {
-   margin-left: 1%;
+    font-size: 20px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+#brides .container2 .bridal-head p
+{
+    font-size: 15px; 
+    font-weight: 400;
+    margin-left: 12%;
 }
 #brides  .title
 {
@@ -158,9 +166,13 @@
 #brides  .content-box 
 {
     width: 75%;
-    height: 270px; 
+    height: 330px; 
     margin-left: 12%;
     margin-top: 1%;
+}
+#brides .title
+{
+   margin-top: 6%;
 }
 #brides .para-text
 {
@@ -172,6 +184,7 @@
 }
 #brides .text
 {
+   margin-top: 8%;
     font-size: 10px;
 }
 #brides .img1
@@ -216,6 +229,7 @@
 {
    font-size: 18px;
    margin-top: 3%;
+   margin-left: 0%;
 }
 #courses .container4 .course-head p
 {
@@ -228,12 +242,17 @@
 }
 #courses .container4 .card
 {
-   border: solid 1px;
+   height: 540px;
+}
+#courses .container4 .card-body
+{
+   
+   box-shadow: 0px 0px 3px 1px gray inset;
 }
 #courses .container4 .card-img-top
 {
     width: 100%;
-    height: 370px;
+    height: 240px;
     margin-left: 0%;
 }
 #courses .container4 .register-btn
@@ -242,7 +261,115 @@
      background-color: rgb(190, 190, 190);
      border: solid 1px rgb(161, 161, 161);
      color: rgb(104, 104, 104);
-     padding: 8px;
-     margin-top: 3%;
+     padding: 5px;
+     margin-top: 0%;
+}
+#courses .container4 .card-title1 
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 3%;
+}
+#appointment .container5 .appointment-head h3
+{
+    font-size: 22px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+#appointment .container5 .appointment-head p
+{
+    font-size: 12px; 
+    font-weight: 400;
+    margin-left: 3%;
+}
+#appointment .container5 .img-fluid
+{
+    width: 75%;
+    height: 330px;
+    margin-top:0%;
+    margin-left: 10%;
+}
+#appointment .container5 .form-heading
+{
+   width: 85%;
+   height: 500px;
+   background-color: rgb(242, 242, 242);
+}
+#reviews .container6 .review-head h3
+{
+    font-size: 22px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+#reviews .container6 .review-head p
+{
+    font-size: 14px; 
+    font-weight: 400;
+    margin-left: 20%;
+}
+#reviews .container6 .card
+{
+   height: 300px;
+    border: none;
+    background-color: rgb(237, 237, 237);
+}
+#reviews .container6 .card-body i
+{
+    color: #ff9f9f;
+    font-size:30px;
+    margin-left: 5%;
+}
+#reviews .container6 .card-img-top
+{
+    width: 28%; 
+    height: 25%; 
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#footer .container7 .footer-content
+{
+    width: 95%;
+    height: 500px;
+    background-color: #7e7e7e;
+    margin-left: 2%;
+}
+#footer .container7 .footer-logo
+{
+   width: 40%;
+}
+#footer .container7 .footer-para
+{
+   width: 100px;
+    font-size: 14px;
+}
+#footer .container7 .footer-social-media
+{
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin-left: 0%;
+    color: white;
+}
+#footer .container7 .footer-links 
+{
+   list-style-type: none;
+   font-size: 15px;
+   margin-top: 5% ;
+}
+#footer .container7 .h6
+{
+   margin-left:8% ;
+}
+#footer .container7 .contact-detail
+{
+   margin-left:8% ;
+}
+#footer .container7 .contact-footer-links
+{
+   margin-top: 4%;
 }
 }

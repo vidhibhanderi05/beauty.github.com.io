@@ -40,14 +40,19 @@ body
 {
     margin-left: 54.5%; 
 }
-.service-head
+#ourservices .container .service-head h3
 {
+    font-size: 25px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 42%;
     margin-top: 2%;
 }
-.service-head p
+#ourservices .container .service-head p
 {
-    font-size: 15px; 
+    font-size: 14px; 
     font-weight: 400;
+    margin-left: 2%;
 }
 .carousel-inner .contant
 {
@@ -140,6 +145,19 @@ body
     border:solid 1px gray; 
     margin-left: 2%;
 }
+#brides .container2 .bridal-head h3
+{
+    font-size: 22px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 40%;
+}
+#brides .container2 .bridal-head p
+{
+    font-size: 15px; 
+    font-weight: 400;
+    margin-left: 6%;
+}
 #brides  .title
 {
     color: #E3A2A2;
@@ -158,9 +176,9 @@ body
 #brides .content-box
 {
     width: 40%;
-    height: 280px;
+    height: 330px;
     box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
-    margin-top: 6%; 
+    margin-top: 3%; 
     margin-left: 12%;
 }
 #brides .para-text
@@ -190,7 +208,7 @@ body
     width: 450px; 
     height: 470px;  
     margin-left:28%;
-    box-shadow:10px 10px rgb(182, 181, 181) ; 
+    box-shadow: 10px 10px rgb(182, 181, 181) ; 
 }
 #brides .content3
 { 
@@ -229,7 +247,6 @@ body
 }
 #courses .container4 .course-head 
 {
-   
    margin-top: 3%;
 }
 #courses .container4 .course-head h3
@@ -265,11 +282,26 @@ body
     font-size: 12px;
     font-weight: 600;
 }
+#appointment .container5 .appointment-head h3
+{
+    font-size: 25px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+#appointment .container5 .appointment-head p
+{
+    font-size: 14px; 
+    font-weight: 400;
+    margin-left: 1%;
+}
 #appointment .container5 .img-fluid
 {
     width: 100%;
     height: 500px;
     margin-top: 4%;
+    margin-left: 10%;
 }
 
 #appointment .container5 .form-heading
@@ -281,6 +313,20 @@ body
 {
    color: gray;
    font-weight: 600;
+}
+#reviews .container6 .review-head h3
+{
+    font-size: 25px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 39%;
+    margin-top: 2%;
+}
+#reviews .container6 .review-head p
+{
+    font-size: 14px; 
+    font-weight: 400;
+    margin-left: 10%;
 }
 #reviews .container6 .card
 {
@@ -299,20 +345,21 @@ body
     color: gray;
     margin-top: 1%;
 }
+
 #reviews .container6 .card-img-top
 {
     width: 20%; 
     height: 25%; 
     border-radius: 50%;
     margin-top: 2%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 #footer .container7 .footer-content
 {
     width: 95%;
     height: 300px;
     background-color: #7e7e7e;
-    margin-left: 2.5%;
+    margin-left: 2%;
 }
 #footer .container7 .footer-para
 {
@@ -329,7 +376,12 @@ body
 {
    list-style-type: none;
    font-size: 15px;
-   margin-top: 15% ;
+   margin-top: 27% ;
+}
+#footer .container7 .contact-footer-links
+{
+   margin-top: 16.5%;
+   margin-left: 0%;
 }
 #footer .container7 .list-item li a
 {
