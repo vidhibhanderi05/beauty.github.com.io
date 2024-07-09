@@ -1,0 +1,23 @@
+@media (min-width :1025px) and (max-width : 1200px) 
+{
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header #heading1
+{
+    display: flex;
+    flex-direction: row;
+}
+#heading1 .leftsidebar h6
+{
+    font-size: 15px;
+}
+#header #heading1 .social-media
+{
+    padding: 0;
+    margin-left: 71%;
+    font-size: 3px;  
+}
+}

@@ -1,0 +1,103 @@
+@media (min-width :769px) and (max-width : 1024px)
+{
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header #heading1
+{
+    display: flex;
+    flex-direction: row;
+}
+#heading1 .leftsidebar h6
+{
+   font-size: 15px;
+}
+#header #heading1 .social-media
+{
+  padding: 0;
+  margin-left: 65%;
+  font-size: 3px;  
+}
+.logo
+{
+   margin-top: 1%;
+}
+.navbar-nav li a
+{
+  font-size: 12px; 
+} 
+.contant
+{
+    width: 100%;
+    height: 340px;
+    padding: 0px;
+    margin-top: 0%;
+    background-image: url(images/slider\ img-1.jpg);
+    background-size: cover;
+}
+#ourservices .container .services-btn
+{ 
+    width: 18%;
+    margin-left: 0%;
+    margin-top: 2px;
+}
+#brides .text
+{
+    font-size: 12px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#brides .content
+{
+    width: 43%;
+    height: 280px;
+    margin-top: 6%; 
+    margin-left: 9%;
+}
+#brides  .title
+{
+    margin-top: 7%; 
+}
+#brides .para-text
+{
+   width: 100%;
+}
+#brides .box
+{  
+    width: 340px; 
+    height: 390px; 
+}
+#brides .img1
+{
+    width: 350px; 
+    height: 410px; 
+}
+#brides .content2
+{
+    width: 40%; 
+    margin-left:5%; 
+    margin-top: 3%;
+}
+#brides .img2
+{
+    width: 410px; 
+    height: 420px; 
+    padding: 6px; 
+    margin: 1px;
+}
+#brides .box2
+{ 
+    width: 380px; 
+    height: 390px; 
+    margin-left: 10%;   
+}
+#brides .content3
+{ 
+    width: 30%;
+    height: 280px; 
+    margin-top: 10%; 
+    margin-left: 15%;
+}
+}

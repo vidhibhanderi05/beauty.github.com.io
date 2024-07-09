@@ -26,52 +26,47 @@
      
 </head>
 <body>
-    
-    <!-- header -->
 
-    <section id="header" class="fixed-top">
-        <div class="container-fluid p-2 mt-1" id="heading1">       
-            <div class="leftsidebar">
-                <h6 class="text-light">opening hours : Monday to Saturday</h6>
-            </div>
-            <div class=" social-media  text-light">
-                <span class="bi bi-facebook fs-6 ms-2"></span>
-                <span class="bi bi-instagram fs-6 ms-2"></span>
-                <span class="bi bi-google fs-6 ms-2"></span>
-                <span class="bi bi-pinterest fs-6 ms-2"></span>
-            </div>
+     <!-- header -->
+
+     <section id="header" class="fixed-top">       
+        <div class="leftsidebar mt-2">
+            <h6 class="text-light">opening hours : Monday to Saturday</h6>
         </div>
-    </section>
-
+        <div class=" social-media  text-light p-0  mt-1">
+            <span class="bi bi-facebook "></span>
+            <span class="bi bi-instagram "></span>
+            <span class="bi bi-google "></span>
+            <span class="bi bi-pinterest "></span>
+        </div>
+     </section>
+   
       <!-- navbar -->
     
       <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100px;">
-        <div class="container-fluid bg-secondary " style="margin-top: 4.5%;">
-          <div class="logo mt-1">
-            <h4 class=" logo text-white   ms-1" style="font-family: poppins; margin-top: 10%; ">B L O O M<br><p  style="font-size: 11px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">BEAUTY STUDIO</p></h4>
-          </div>
-          
+        <div class="container-fluid">
+            <h4 class="logo text-white" style="font-family: poppins; margin-top: 2%;">B L O O M<br><p  style="font-size: 11px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">BEAUTY STUDIO</p></h4>
+
           <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header bg-secondary">
+          <div class="offcanvas offcanvas-end  " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-
             
-          <div class="offcanvas-body bg-secondary mt-0 " id="offcanvasNavbar">
-            <ul class="navbar-nav " style="margin-left: 56%;">
+          <div class="offcanvas-body " id="offcanvasNavbar">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a></li>
+                <a class="nav-link active" aria-current="page" style="color:rgb(95, 95, 95)" href="index.html">HOME</a></li>
               <li class="nav-item"> 
-                <a class="nav-link" style="color: #FFADAD;"  href="services.html">SERVICES</a></li>
+                <a class="nav-link text-white" href="services.html">SERVICES</a></li>
               <li class="nav-item"> 
                 <a class="nav-link text-white" href="bride.html">BRIDAL</a></li>
               <li class="nav-item"> 
                 <a class="nav-link text-white" href="course.html">COURSES</a></li>
               <li class="nav-item"> 
-                <a class="nav-link text-white" href="#">APPOINTMNET</a></li>
+                <a class="nav-link text-white" href="appointment.html">APPOINTMNET</a></li>
               <li class="nav-item"> 
                 <a class="nav-link text-white" href="#">CONTACT US</a></li>
             </ul>
@@ -79,98 +74,95 @@
         </div>
       </nav>
 
-      <!-- slide -->
+       <!-- slide -->
 
-      <div id="services slide" class="slide">
-          <div class="service-contant p-2">
-             <h6>EXPERT TIPS & TRICKS ON</h6>
-             <h2>BEAUTY, MAKEUP <br> & SKINCARE</h2>
-         </div>
-    
+       <div class="service-contant ">
+        <h6>EXPERT TIPS & TRICKS ON</h6>
+        <h2>BEAUTY, MAKEUP <br> & SKINCARE</h2>
+      <div class="mt-1">
+       <button class="search-btn btn-light" type="button">&nbsp;SEARCH & ENTER<span class=" icon bi bi-search "></span></button>
+     </div>
+    </div>
+
       <!-- services -->
 
-    <section class="services py-2" id="ourservices">
-      <div class="container mt-3">
-       
-        <div class="card-group">
-          <div class="card">
-            <img src="icon imges/hairstyle.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">HAIR STYLING</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
+      <section class="services py-2" id="ourservices">
+        <div class="container">
+          <div class="service-head text-center">
+            <h3 style="color: #FFADAD; font-weight:600;">OUR<span class="text-secondary">&nbsp;SERVICES</span><br><p class=" 
+            text-secondary">hair,make-up & beauty</p></h3>
+          </div>
+  
+          <div class="card-group">
+            <div class="card">
+              <img src="icon imges/hairstyle.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">HAIR STYLING</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img src="icon imges/body massage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">BODY MASSAGE</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis</p>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img src="icon imges/make-up.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">MAKE-UP</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
+              </div>
             </div>
           </div>
-
-          <div class="card">
-            <img src="icon imges/body massage.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">BODY MASSAGE</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis</p>
+  
+          <div class="card-group ">
+            <div class="card">
+              <img src="icon imges/nail art.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">NAIL-ART</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="icon imges/skin care.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title ">SKIN-CARE</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img src="icon imges/body relaxation.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">BODY RELAXATION</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
+              </div>
             </div>
           </div>
-
-          <div class="card">
-            <img src="icon imges/make-up.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">MAKE-UP</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
-            </div>
+  
+          <div class="services-btn gap-2 col-6 mx-auto mt-4">
+            <button class="btn btn-light" type="button">VIEW ALL SERVICES</button>
           </div>
         </div>
-
-        <div class="card-group mt-3">
-          <div class="card">
-            <img src="icon imges/nail art.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">NAIL-ART</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
-            </div>
-          </div>
-          
-          <div class="card">
-            <img src="icon imges/skin care.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title ">SKIN-CARE</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="icon imges/body relaxation.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">BODY RELAXATION</h6>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sunt excepturi libero maiores tempore praesentium perspiciatis.</p>
-            </div>
-          </div>
-        </div>
-
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center mt-4">
-              <li class="page-item"><a class="page-link text-black" href="#">1</a></li>
-              <li class="page-item"><a class="page-link text-black" href="#" style="background-color: white; border: none;">2</a></li>
-              <li class="page-item"><a class="page-link text-black" href="#" style="background-color: white; border: none;">3</a></li>
-            </ul>
-          </nav>
-      </div>
-    </section>
+      </section>
    
-
        <!-- footer -->
        <section class="contact us" id="footer">
-        <div class="container7 ">
-          <div class="text-center ms-4 mt-3">
-          <h3 style="color: #FFADAD; font-weight:600;">CONTACT<span class="text-secondary">&nbsp;WITH US</span><br><p class=" 
-          text-secondary" style=" font-size: 15px; font-weight: 400;">contact with us</p></h3>
-          </div>
+        <div class="container7 mt-5 ">
 
           <div class=" footer-content ">
             <div class="row">
               <div class="col-md-3">
-                <ul class="footer-links ms-4">
+                <ul class="footer-links ms-3 mt-5">
                   <div class="footer-logo ">
                     <h4 class=" text-white  ms-1 "style="font-family: poppins;">B L O O M<br><p  style="font-size: 12px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 3%;">BEAUTY STUDIO</p></h4>
                   </div>
-                   <p class="footer-para text-secondary">Lorem ipsum dolor sit amet conse adipisicing elit. Dicta recusandae provident ratione alias id? Assume, labore . </p>
+                   <p class="footer-para text-white">Lorem ipsum dolor sit amet conse adipisicing elit. Dicta recusandae provident ratione alias id? Assume, labore . </p>
 
             <div class="footer-social-media">
               <span class="bi bi-facebook"></span>
@@ -180,60 +172,60 @@
         </div>
       </div>
                 <div class="col-md-2">
-                    <div class="footer-links mt-5 ms-2">
-                        <span class="h6 text-white ms-4">OUR SERVICES</span>
+                    <div class="footer-links mt-5 ms-1">
+                        <span class="h6 text-white ms-4" style="font-weight: 700;">OUR SERVICES</span>
                         <ul class="list-item mt-4">
-                        <li><a href="" class="text-secondary">Fasical</a></li>
-                        <li><a href="" class="text-secondary">Waxing</a></li>
-                        <li><a href="" class="text-secondary">Hair treatment</a></li>
-                        <li><a href="" class="text-secondary">Skin care</a></li>
-                        <li><a href="" class="text-secondary">Make-up</a></li>
-                        <li><a href="" class="text-secondary">Nail art</a></li>
+                        <li><a href="" class="text-white">Fasical</a></li>
+                        <li><a href="" class="text-white">Waxing</a></li>
+                        <li><a href="" class="text-white">Hair treatment</a></li>
+                        <li><a href="" class="text-white">Skin care</a></li>
+                        <li><a href="" class="text-white">Make-up</a></li>
+                        <li><a href="" class="text-white">Nail art</a></li>
                     </ul>
                 </div>
                 </div>
 
                 <div class="col-md-2">
-                    <div class="footer-links mt-5 ms-2">
-                        <span class="h6 text-white ms-4">OTHER PAGES</span>
+                    <div class="footer-links mt-5 ms-1">
+                        <span class="h6 text-white ms-4" style="font-weight: 700;">OTHER PAGES</span>
                      <ul class="list-item mt-4">
-                        <li><a href="" class="text-secondary">About us</a></li>
-                        <li><a href="" class="text-secondary">Services</a></li>
-                        <li><a href="" class="text-secondary">Our bridal</a></li>
-                        <li><a href="" class="text-secondary">Courses</a></li>
-                        <li><a href="" class="text-secondary">Appointmnet</a></li>
+                        <li><a href="" class="text-white">About us</a></li>
+                        <li><a href="" class="text-white">Services</a></li>
+                        <li><a href="" class="text-white">Our bridal</a></li>
+                        <li><a href="" class="text-white">Courses</a></li>
+                        <li><a href="" class="text-white">Appointmnet</a></li>
                     </ul>
                 </div>
                 </div>
 
                 <div class="col-md-2">
-                  <div class="footer-links mt-5 ms-1">
-                     <span class="h6 text-white ms-4">USEFUL LINKS</span>
+                  <div class="footer-links mt-5 ">
+                     <span class="h6 text-white ms-4" style="font-weight: 700;">USEFUL LINKS</span>
                      <ul class="list-item mt-4">
-                      <li><a href="" class="text-secondary">About us</a></li>
-                      <li><a href="" class="text-secondary">Contact us</a></li>
-                      <li><a href="" class="text-secondary">Our Services</a></li>
-                      <li><a href="" class="text-secondary">Blogs</a></li>
-                      <li><a href="" class="text-secondary">Privacy & Policy</a></li>
+                      <li><a href="" class="text-white">About us</a></li>
+                      <li><a href="" class="text-white">Contact us</a></li>
+                      <li><a href="" class="text-white">Our Services</a></li>
+                      <li><a href="" class="text-white">Blogs</a></li>
+                      <li><a href="" class="text-white">Privacy & Policy</a></li>
                   </ul>
               </div>
               </div>
 
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <div class="footer-links mt-5">
-                   <span class="h6 text-white mt-4">CONTACT US</span>
+                   <span class="h6 text-white mt-4" style="font-weight: 700;">CONTACT US</span>
 
           
-                    <div class="phone mt-1">
-                     <h6 class="text-secondary  ms-1 mt-4"><span class="bi bi-phone " style="font-size: 20px;"></span>Phone<br><p class="ms-4">(+91) 98657 87843</p></h6>
+                    <div class="phone mt-4">
+                     <span class="bi bi-telephone-fill text-white" style="letter-spacing: 1px;">&nbsp; (+91) 98657 87843</span>
                     </div>
 
-                    <div class="Email mt-1">
-                      <h6 class="text-secondary  ms-1 ">Email<br><p class="">bloombeautystudio@gmail.com</p></h6>
+                    <div class="Email mt-3">
+                      <span class="bi bi-envelope-fill text-white" style="letter-spacing: 1px;">&nbsp; bloombeautystudio@gmail.com</span>
                     </div>
 
-                    <div class="Email mt-1">
-                      <h6 class="text-secondary  ms-1 ">Loction<br><p class="">Bloom beauty studio, Akshar Complex, 1ST Floor, Patel Girls Hostel, University Road, Rajkot, Gujarat 360003</p></h6>
+                    <div class="location mt-3">
+                   <span class="bi bi-geo-alt-fill text-white ">&nbsp;  Bloom beauty studio, Akshar &nbsp;Complex,&nbsp;1ST Floor,&nbsp;Patel Girls Hostel,University Road, Rajkot,Gujarat 360003<span>
                     </div>
                 </div>
             </div>

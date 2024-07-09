@@ -1,4 +1,4 @@
-body 
+body
 {
     margin: 0;
     padding: 0;
@@ -7,59 +7,89 @@ body
 }
 #header
 {
-    background-color:#FFADAD;
+    background-color:#7e7e7e;
     z-index: 5 !important;
-}
-#header #heading1
- {
     display: flex;
     flex-direction: row;
- }
-#heading1 .social-media
+    padding: 3px;
+}
+#header .social-media
 {
     margin-left: 70%;
+    padding: 4px;
+    letter-spacing: 5px;
+}
+.container-fluid
+{
+    height: 70px;
+    margin-top: 3%;
+   background-color: #fcbbbb; 
+}
+.logo
+{
+    font-family: poppins; 
+    margin-top: 2%;
+    font-weight: 600;
 }
 .navbar-nav li a
 {
     font-size: 15px;
+    font-weight: 600;
 }
-.contant
+#offcanvasNavbar .navbar-nav
+{
+    margin-left: 54.5%; 
+}
+.service-head
+{
+    margin-top: 2%;
+}
+.service-head p
+{
+    font-size: 15px; 
+    font-weight: 400;
+}
+.carousel-inner .contant
 {
     width: 100%;
-    height: 490px;
-    margin-top: 1%;
+    height: 500px;
+    margin-top:0;
     background-image: url(images/slider\ img-1.jpg);
     background-size: cover;
 }
-.contant h6
+.carousel-inner .carousel-item
 {
-    padding: 5px;
-    margin-top: 12%;
-    margin-left: 8%;
-    color: white;
-    font-size: 12px;
-    /* line-height: 1cm; */
+    height: 500px;
+  
 }
 .contant h2
 {
+    margin-top: 14%;
     margin-left: 8%;
-    line-height: 1cm;
     color: white;
 }
-#carouselExampleIndicators .carousel
-{
-    margin-top: 0;
-}
-#carouselExampleIndicators .carousel-inner .form-control 
-{
-    width: 20%; 
-    margin-left: 8%; 
-    font-size: 10px;
-}
-#carouselExampleIndicators .carousel-inner .search-btn
+.search-btn
 {
     border: solid 1px black;
     width: 20%;
+    text-align: start; 
+    font-size: 10px; 
+    padding: 6px; 
+    margin-left:8%;
+}
+.icon
+{
+    margin-left: 60%;
+}
+#carouselExampleFade  .carousel-control-prev
+{
+   width: 10%;
+   
+}
+#carouselExampleFade  .carousel-control-next
+{
+   width: 10%;
+  
 }
 .card-group .card
 {
@@ -125,11 +155,11 @@ body
     margin-left: 5%;
     margin-top: 5%;
 }
-#brides .content
+#brides .content-box
 {
     width: 40%;
     height: 280px;
-    border: solid 1px; 
+    box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
     margin-top: 6%; 
     margin-left: 12%;
 }
@@ -147,59 +177,35 @@ body
    font-size: 12px;
    font-weight: 600;
 }
-#brides .box
-{ 
-    width: 340px; 
-    height: 390px; 
-    border: solid 1px rgb(127, 127, 127);
-    background-color: rgb(202, 202, 202);
-    padding: 5px;
-    margin-left: 5%; 
-    margin-top: 1%; 
-}
 #brides .img1
 {
-    width: 380px; 
-    height: 440px; 
-    padding: 6px; 
+    width: 370px; 
+    height: 440px;  
     margin: 1px;
+    margin-left: 10%;
+    box-shadow: 10px 10px rgb(182, 181, 181) ; 
 }
-#brides .content2
-{
-    width: 40%; 
-    margin-left:5%; 
-    margin-top: 3%;
-}
-#brides .img2
+#brides .img2 
 {
     width: 450px; 
-    height: 470px; 
-    padding: 6px; 
-    margin: 1px;
-}
-#brides .box2
-{ 
-    width: 400px; 
-    height: 450px; 
-    border: solid 1px rgb(127, 127, 127);
-    background-color: rgb(202, 202, 202);
-    padding: 5px;
-    margin-left: 15%;   
+    height: 470px;  
+    margin-left:28%;
+    box-shadow:10px 10px rgb(182, 181, 181) ; 
 }
 #brides .content3
 { 
     width: 30%;
     height: 280px; 
-    margin-top: 12%; 
-    margin-left: 12%;
-    border:solid 1px; 
+    margin-top: 8%; 
+    margin-left: 15%;
+    box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
 }
 #brides .content3 .seemore-btn
 {
-    width: 20%; 
-    padding: 5px;
+    width: 35%; 
+    padding: 8px;
     border:solid 1px rgb(193, 193, 193); 
-    margin-left:40%;
+    margin-left:33%;
     margin-top: 3%;
     font-size: 10px;
     color: gray;
@@ -220,6 +226,23 @@ body
     margin-top: 10%;
     text-align: center;
     font-weight: 550;
+}
+#courses .container4 .course-head 
+{
+   
+   margin-top: 3%;
+}
+#courses .container4 .course-head h3
+{
+    font-size: 22px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 4%;
+}
+#courses .container4 .course-head p
+{
+    font-size: 15px; 
+    font-weight: 400;
 }
 #courses .container4 .card
 {
@@ -287,7 +310,8 @@ body
 #footer .container7 .footer-content
 {
     width: 95%;
-    background-color: #FFADAD;
+    height: 300px;
+    background-color: #7e7e7e;
     margin-left: 2.5%;
 }
 #footer .container7 .footer-para
@@ -299,6 +323,7 @@ body
     font-size: 20px;
     letter-spacing: 8px;
     margin-left: 2%;
+    color: white;
 }
 #footer .container7 .footer-links 
 {
@@ -314,27 +339,18 @@ body
 {
     list-style-type: none;
 }
+#footer .footer-logo h4
+{
+    font-family: poppins;
+    font-weight: 600;
+}
 .service-contant
 {
     width: 100%;
-    height: 520px;
-    margin-top: 1%;
+    height: 500px;
     background-image: url(images/services.jpg);
     background-size: cover;
 }
-#ourservices .container .page-link
-{
-    border-radius: 50%;
-    background-color: rgb(214, 214, 214);
-    margin: 3px;
-}
-.bride-contant
-{
-    width: 100%;
-    height: 559px;
-    margin-top: 1%;
-    background-image: url(images/bride.jpg);
-    background-size: cover;
-}
+
 
 

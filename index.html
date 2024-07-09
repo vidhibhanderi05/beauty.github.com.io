@@ -29,41 +29,36 @@
     
     <!-- header -->
 
-    <section id="header" class="fixed-top">
-        <div class="container-fluid p-2 mt-1" id="heading1">       
-            <div class="leftsidebar">
+    <section id="header" class="fixed-top">       
+            <div class="leftsidebar mt-2">
                 <h6 class="text-light">opening hours : Monday to Saturday</h6>
             </div>
-            <div class=" social-media  text-light">
-                <span class="bi bi-facebook fs-6 ms-2"></span>
-                <span class="bi bi-instagram fs-6 ms-2"></span>
-                <span class="bi bi-google fs-6 ms-2"></span>
-                <span class="bi bi-pinterest fs-6 ms-2"></span>
+            <div class=" social-media  text-light p-0  mt-1">
+                <span class="bi bi-facebook "></span>
+                <span class="bi bi-instagram "></span>
+                <span class="bi bi-google "></span>
+                <span class="bi bi-pinterest "></span>
             </div>
-        </div>
     </section>
 
       <!-- navbar -->
     
       <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100px;">
-        <div class="container-fluid bg-secondary " style="margin-top: 4.5%;">
-          <div class="logo mt-1">
-            <h4 class=" logo text-white   ms-1" style="font-family: poppins; margin-top: 10%; ">B L O O M<br><p  style="font-size: 11px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">BEAUTY STUDIO</p></h4>
-          </div>
-          
+        <div class="container-fluid">
+            <h4 class="logo text-white">B L O O M<br><p  style="font-size: 11px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">BEAUTY STUDIO</p></h4>
+
           <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header bg-secondary">
+          <div class="offcanvas offcanvas-end  " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-
             
-          <div class="offcanvas-body bg-secondary mt-0 " id="offcanvasNavbar">
-            <ul class="navbar-nav " style="margin-left: 56%;">
+          <div class="offcanvas-body " id="offcanvasNavbar">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color: #FFADAD;" href="index.html">HOME</a></li>
+                <a class="nav-link active" aria-current="page" style="color:rgb(95, 95, 95)" href="index.html">HOME</a></li>
               <li class="nav-item"> 
                 <a class="nav-link text-white" href="services.html">SERVICES</a></li>
               <li class="nav-item"> 
@@ -71,7 +66,7 @@
               <li class="nav-item"> 
                 <a class="nav-link text-white" href="course.html">COURSES</a></li>
               <li class="nav-item"> 
-                <a class="nav-link text-white" href="#">APPOINTMNET</a></li>
+                <a class="nav-link text-white" href="appointment.html">APPOINTMNET</a></li>
               <li class="nav-item"> 
                 <a class="nav-link text-white" href="#">CONTACT US</a></li>
             </ul>
@@ -81,45 +76,45 @@
 
       <!-- slider -->
 
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-          <div class="contant p-2">
-             <h6>EXPERT TIPS & TRICKS ON</h6>
-             <h2>BEAUTY, MAKEUP <br> & SKINCARE</h2>
 
-            <button class="search-btn btn-light" type="button" style="text-align: start; font-size: 10px; padding: 6px; margin-left:8%;  margin-top:1%;">SEARCH & ENTER<span class="bi bi-search ms" style="margin-left: 60%;"></span></button>
+          <div class="carousel-item active">
+            <div class="contant p-1">
+              <h2>BEAUTY, MAKEUP <br> & SKINCARE</h2>
+            <div class="mt-1">
+             <button class="search-btn btn-light" type="button">&nbsp;SEARCH & ENTER<span class=" icon bi bi-search "></span></button>
+            </div>
           </div>
           </div>
+
           <div class="carousel-item">
-            <img src="images/slider img-2.jpg" class="d-block w-100 " alt="..." style="height: 500px; margin-top: 1%;">
+            <img src="images/slide2.jpg" class="d-block w-100" alt="...">
           </div>
+
           <div class="carousel-item">
-            <img src="images/slider img-3.jpg" class="d-block w-100" alt="..." style="height: 500px; margin-top: 1%;">
+            <img src="images/slide-3.jpg" class="d-block w-100 " alt="...">
           </div>
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button> -->
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="visually-hidden">Previous</span> 
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next" style="width: 10%;">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    
+       
+      
       <!-- services -->
 
     <section class="services py-2" id="ourservices">
       <div class="container">
-        <div class="text-center mt-3">
+        <div class="service-head text-center">
           <h3 style="color: #FFADAD; font-weight:600;">OUR<span class="text-secondary">&nbsp;SERVICES</span><br><p class=" 
-          text-secondary" style=" font-size: 15px; font-weight: 400;">hair,make-up & beauty</p></h3>
+          text-secondary">hair,make-up & beauty</p></h3>
         </div>
 
         <div class="card-group">
@@ -148,7 +143,7 @@
           </div>
         </div>
 
-        <div class="card-group mt-3">
+        <div class="card-group">
           <div class="card">
             <img src="icon imges/nail art.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -184,13 +179,13 @@
 
     <section class="our brides" id="brides">
     <div class="container2 mt-4">
-      <div class="text-center mt-4">
+      <div class="bridal-head text-center ms-2">
       <h3 style="color: #FFADAD; font-weight:600;">ON-SITE<span class="text-secondary">&nbsp;LUXURY BRIDAL</span><br><p class=" 
       text-secondary" style=" font-size: 15px; font-weight: 400;">hair,make-up & beauty</p></h3>
       </div>
 
     <div class="row">
-        <div class=" content col-md-5">
+        <div class=" content-box col-md-7">
           <h4 class="title">For The Morden Brides</h4>
           <p class="text">WHO WANTS TO LOOK LIKE AN ELEVATED VERSION <br> OF HERSELF, ON HER SPECIAL DAY.</p>  
           <p class="para-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Atque facilis corrupti<br> magni modi quaerat delectus tempore, autem minima. Odio asperiores aut<br> voluptate  soluta nesciunt laudantium a aperiam esse, dolorem veniam!</p>
@@ -199,28 +194,24 @@
           <h6>OUR MAKE-UP SERVICES<span class="bi bi-arrow-right fs-6 ms-2 text-secondary"></span></h6>
         </div>
         </div>
-        <div class="box">
+
+        <div class="col-md-5">
           <img src="images/bride1.jpg" class="img1" alt="...">
         </div>
     </div>  
 
-    <div class="d-flex">
+  
     <div class="row">
-       <div class="content2 col-md-5">
-       <div class="box2">
+      <div class="col-md-5">
         <img src="images/bride2.jpg" class="img2" alt="...">
       </div>
-      </div>
-
-       <div class="content3">
+        
+       <div class="content3 col-md-7">
         <h4 class="title2">For Everyone</h4>  
         <p class="para2-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque facilis corrupti magni modi quaerat delectus tempore, autem minima. Odio asperiores aut voluptate soluta nesciunt laudantium a aperiam esse, dolorem veniam!</p>
         <button class="seemore-btn btn-light" type="button">See More</button>
       </div>
-
       </div>
-    </div>
-    </div>
     </div>  
     </section>    
 
@@ -228,12 +219,12 @@
 
     <section class="our courses" id="courses">
       <div class="container4">
-        <div class="text-center mt-5">
-        <h3 style="color: #FFADAD; font-weight:600;">OUR<span class="text-secondary">&nbsp;PROFESSIONAL COURSES</span><br><p class=" 
-        text-secondary" style=" font-size: 15px; font-weight: 400;">beauty,hair & makeup training</p></h3>
+        <div class="course-head text-center">
+        <h3 >OUR<span class="text-secondary">&nbsp;PROFESSIONAL COURSES</span><br><p class=" 
+        text-secondary">beauty,hair & makeup training</p></h3>
        </div>
 
-       <div class="card-group mt-0 ms-3">
+       <div class="card-group mt-0 ">
         <div class="card">
           <img src="images/img1.jpg" class="card-img-top" alt="...">
            <button class="register-btn btn-light" type="button">Register Now</button>
@@ -243,6 +234,7 @@
             <p class="card-text"><small class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident fugiat inventore eligendi  similique!</small></p>
           </div>
         </div>
+
         <div class="card">
           <img src="images/img2.jpg" class="card-img-top" alt="...">
           <button class="register-btn btn-light" type="button">Register Now</button>
@@ -252,6 +244,7 @@
             <p class="card-text"><small class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident fugiat inventore eligendi  similique!</small></p>
           </div>
         </div>
+
         <div class="card">
           <img src="images/img3.jpeg" class="card-img-top" alt="...">
           <button class="register-btn btn-light" type="button">Register Now</button>
@@ -322,40 +315,109 @@
      </section>
 
      <!-- review -->
-
-     <section class="our client review" id="reviews">
+     <div class="our client review" id="reviews">
       <div class="container6 py-2">
         <div class="text-center ms-3 mt-4">
         <h3 style="color: #FFADAD; font-weight:600;">COMMENTS<span class="text-secondary">&nbsp;& REVIEWS</span><br><p class=" 
         text-secondary" style=" font-size: 15px; font-weight: 400;">what our client syas</p></h3>
         </div>
 
-        <div class="card-group">
-          <div class="card">
-            <div class="card-body">
-               <i class="bi bi-quote"></i>  
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit aspernatur praesentium libero cum rem ut explicabo debitis! Explicabo, obcaecati!</p>
-              <img src="images/client1.avif" class="card-img-top shadow">
+     <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                 <i class="bi bi-quote"></i>  
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit aspernatur praesentium libero cum rem ut explicabo debitis! Explicabo, obcaecati!</p>
+                <img src="images/client1.avif" class="card-img-top shadow">
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-               <i class="bi bi-quote"></i>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempora, reiciendis voluptate cum reprehenderit eius autem atque consectetur!</p>
-              <img src="images/client2.avif" class="card-img-top shadow">
+            <div class="card">
+              <div class="card-body">
+                 <i class="bi bi-quote"></i>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempora, reiciendis voluptate cum reprehenderit eius autem atque consectetur!</p>
+                <img src="images/client2.avif" class="card-img-top shadow">
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <i class="bi bi-quote"></i> 
-              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quis repellat distinctio possimus ea placeat quia nemo, praesentium, blanditiis !</p>
-              <img src="images/cleint3.png" class="card-img-top shadow">
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-quote"></i> 
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quis repellat distinctio possimus ea placeat quia nemo, praesentium, blanditiis !</p>
+                <img src="images/client3.png" class="card-img-top shadow">
+              </div>
             </div>
           </div>
         </div>
+        <div class="carousel-item">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                 <i class="bi bi-quote"></i>  
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit aspernatur praesentium libero cum rem ut explicabo debitis! Explicabo, obcaecati!</p>
+                <img src="images/client4.jpg" class="card-img-top shadow">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                 <i class="bi bi-quote"></i>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempora, reiciendis voluptate cum reprehenderit eius autem atque consectetur!</p>
+                <img src="images/client5.jpg" class="card-img-top shadow">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-quote"></i> 
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quis repellat distinctio possimus ea placeat quia nemo, praesentium, blanditiis !</p>
+                <img src="images/client6.jpg" class="card-img-top shadow">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                 <i class="bi bi-quote"></i>  
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit aspernatur praesentium libero cum rem ut explicabo debitis! Explicabo, obcaecati!</p>
+                <img src="images/client1.avif" class="card-img-top shadow">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                 <i class="bi bi-quote"></i>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempora, reiciendis voluptate cum reprehenderit eius autem atque consectetur!</p>
+                <img src="images/client2.avif" class="card-img-top shadow">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <i class="bi bi-quote"></i> 
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quis repellat distinctio possimus ea placeat quia nemo, praesentium, blanditiis !</p>
+                <img src="images/client3.png" class="card-img-top shadow">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    </section>
+    </div>
+   
 
+   
        <!-- footer -->
        <section class="contact us" id="footer">
         <div class="container7 mt-5 ">
@@ -363,11 +425,11 @@
           <div class=" footer-content ">
             <div class="row">
               <div class="col-md-3">
-                <ul class="footer-links ms-4">
-                  <div class="footer-logo ">
-                    <h4 class=" text-white  ms-1 "style="font-family: poppins;">B L O O M<br><p  style="font-size: 12px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 3%;">BEAUTY STUDIO</p></h4>
+                <ul class="footer-links ms-3 mt-5">
+                  <div class="footer-logo">
+                    <h4 class=" text-white  ms-1 ">B L O O M<br><p  style="font-size: 12px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 3%;">BEAUTY STUDIO</p></h4>
                   </div>
-                   <p class="footer-para text-secondary">Lorem ipsum dolor sit amet conse adipisicing elit. Dicta recusandae provident ratione alias id? Assume, labore . </p>
+                   <p class="footer-para text-white">Lorem ipsum dolor sit amet conse adipisicing elit. Dicta recusandae provident ratione alias id? Assume, labore . </p>
 
             <div class="footer-social-media">
               <span class="bi bi-facebook"></span>
@@ -377,60 +439,60 @@
         </div>
       </div>
                 <div class="col-md-2">
-                    <div class="footer-links mt-5 ms-2">
-                        <span class="h6 text-white ms-4" style="font-weight: 600;">OUR SERVICES</span>
+                    <div class="footer-links mt-5 ms-1">
+                        <span class="h6 text-white ms-4" style="font-weight: 700;">OUR SERVICES</span>
                         <ul class="list-item mt-4">
-                        <li><a href="" class="text-secondary">Fasical</a></li>
-                        <li><a href="" class="text-secondary">Waxing</a></li>
-                        <li><a href="" class="text-secondary">Hair treatment</a></li>
-                        <li><a href="" class="text-secondary">Skin care</a></li>
-                        <li><a href="" class="text-secondary">Make-up</a></li>
-                        <li><a href="" class="text-secondary">Nail art</a></li>
+                        <li><a href="" class="text-white">Fasical</a></li>
+                        <li><a href="" class="text-white">Waxing</a></li>
+                        <li><a href="" class="text-white">Hair treatment</a></li>
+                        <li><a href="" class="text-white">Skin care</a></li>
+                        <li><a href="" class="text-white">Make-up</a></li>
+                        <li><a href="" class="text-white">Nail art</a></li>
                     </ul>
                 </div>
                 </div>
 
                 <div class="col-md-2">
-                    <div class="footer-links mt-5 ms-2">
-                        <span class="h6 text-white ms-4" style="font-weight: 600;">OTHER PAGES</span>
+                    <div class="footer-links mt-5 ms-1">
+                        <span class="h6 text-white ms-4" style="font-weight: 700;">OTHER PAGES</span>
                      <ul class="list-item mt-4">
-                        <li><a href="" class="text-secondary">About us</a></li>
-                        <li><a href="" class="text-secondary">Services</a></li>
-                        <li><a href="" class="text-secondary">Our bridal</a></li>
-                        <li><a href="" class="text-secondary">Courses</a></li>
-                        <li><a href="" class="text-secondary">Appointmnet</a></li>
+                        <li><a href="" class="text-white">About us</a></li>
+                        <li><a href="" class="text-white">Services</a></li>
+                        <li><a href="" class="text-white">Our bridal</a></li>
+                        <li><a href="" class="text-white">Courses</a></li>
+                        <li><a href="" class="text-white">Appointmnet</a></li>
                     </ul>
                 </div>
                 </div>
 
                 <div class="col-md-2">
-                  <div class="footer-links mt-5 ms-1">
-                     <span class="h6 text-white ms-4" style="font-weight: 600;">USEFUL LINKS</span>
+                  <div class="footer-links mt-5 ">
+                     <span class="h6 text-white ms-4" style="font-weight: 700;">USEFUL LINKS</span>
                      <ul class="list-item mt-4">
-                      <li><a href="" class="text-secondary">About us</a></li>
-                      <li><a href="" class="text-secondary">Contact us</a></li>
-                      <li><a href="" class="text-secondary">Our Services</a></li>
-                      <li><a href="" class="text-secondary">Blogs</a></li>
-                      <li><a href="" class="text-secondary">Privacy & Policy</a></li>
+                      <li><a href="" class="text-white">About us</a></li>
+                      <li><a href="" class="text-white">Contact us</a></li>
+                      <li><a href="" class="text-white">Our Services</a></li>
+                      <li><a href="" class="text-white">Blogs</a></li>
+                      <li><a href="" class="text-white">Privacy & Policy</a></li>
                   </ul>
               </div>
               </div>
 
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <div class="footer-links mt-5">
-                   <span class="h6 text-white mt-4" style="font-weight: 600;">CONTACT US</span>
+                   <span class="h6 text-white mt-4" style="font-weight: 700;">CONTACT US</span>
 
           
                     <div class="phone mt-4">
-                     <span class="bi bi-telephone-fill">(+91) 98657 87843</span>
+                     <span class="bi bi-telephone-fill text-white" style="letter-spacing: 1px;">&nbsp; (+91) 98657 87843</span>
                     </div>
 
-                    <div class="Email mt-4">
-                      <span class="bi bi-envelope-fill">bloombeautystudio@gmail.com</span>
+                    <div class="Email mt-3">
+                      <span class="bi bi-envelope-fill text-white" style="letter-spacing: 1px;">&nbsp; bloombeautystudio@gmail.com</span>
                     </div>
 
-                    <div class="Email mt-1">
-                      <h6 class="text-secondary  ms-1 ">Loction<br><p class="">Bloom beauty studio, Akshar Complex, 1ST Floor, Patel Girls Hostel, University Road, Rajkot, Gujarat 360003</p></h6>
+                    <div class="location mt-3">
+                   <span class="bi bi-geo-alt-fill text-white ">&nbsp;  Bloom beauty studio, Akshar &nbsp;Complex,&nbsp;1ST Floor,&nbsp;Patel Girls Hostel,University Road, Rajkot,Gujarat 360003<span>
                     </div>
                 </div>
             </div>

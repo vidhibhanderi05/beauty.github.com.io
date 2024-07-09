@@ -1,0 +1,186 @@
+@media (min-width :481px) and (max-width : 768px)
+{
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box !important;
+
+}
+#header #heading1
+{
+   display: flex;
+   flex-direction: row;
+}
+ #heading1 .leftsidebar h6
+ {
+    font-size: 15px;
+ }
+#header #heading1 .social-media
+{
+    padding: 0;
+    margin-left: 54%;
+    font-size: 3px;  
+}
+.logo
+{
+   margin-top: 2%;
+}
+#offcanvasNavbar .offcanvas-body
+{
+   padding: 5px;
+}
+.navbar-toggler
+{
+  margin-top: 0%;
+}
+.btn-close
+{
+   margin-left: 92%;
+}
+.contant
+{
+    width: 100%;
+    height: 340px;
+    padding: 0px;
+    margin-top: 1%;
+    background-image: url(images/slider\ img-1.jpg);
+    background-size: cover;
+}
+.carousel-item
+{
+   height: 340px;
+}
+#ourservices .container .services-btn
+{ 
+    width: 100px;
+    margin-left: 0%;
+    margin-top: 2px;
+}
+#ourservices .container .btn
+{
+    font-size: 8px; 
+    margin-left: 0%;
+}
+.card-group .card
+{
+    margin: 5%;
+    margin-top: 2%;
+}
+#ourservices .card-group .card-img-top
+{
+    width: 70px; 
+    height: 70px; 
+    margin-top: 8%; 
+    margin-left: 32%;
+}
+#ourservices .card-group .card
+{
+    height: 200px;
+}
+#ourservices .card-body .card-title
+{
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+}
+#ourservices .card-body .card-text
+{
+   text-align: center;
+   font-size: 10px;
+   margin-top: 5%;
+}
+#brides  .title
+{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+#brides .content
+{
+    width: 48%;
+    height: 240px;
+    margin-left: 7.5%;
+    margin-top: 4%;
+}
+#brides .para-text
+{
+   width:97% ;
+   text-align: start;
+   font-size: 10px;
+   margin-left: 4%;
+}
+#brides .para2 h6
+{
+   margin-left: 5%;
+   font-size: 10px;
+   font-weight: 600;
+}
+#brides .box
+{  
+    width: 240px; 
+    height: 280px; 
+    padding: 5px;
+    margin-left: 5%;   
+}
+#brides .img1
+{
+    width: 250px; 
+    height: 300px; 
+    padding: 1px; 
+}
+#brides .content2
+{
+    width: 20%; 
+    margin-left:4%; 
+    margin-top: 4%;
+}
+#brides .img2
+{
+    width: 350px; 
+    height: 390px; 
+    padding: 6px; 
+    margin: 1px;
+}
+#brides .box2
+{ 
+    width: 320px; 
+    height: 370px; 
+    padding: 5px;
+    margin-left: 15%;   
+}
+#brides .content3
+{ 
+    width: 32%;
+    height: 280px; 
+    margin-top: 10%; 
+    margin-left: 38%;
+    border:solid 1px; 
+}
+#brides .content3 .seemore-btn
+{
+    width: 30%; 
+    margin-left: 35%;
+}
+#courses .container4 .card-img-top
+{
+    width: 200px;
+    height: 200px;
+}
+#courses .container4 .register-btn
+{
+    font-size: 12px;
+}
+#courses .container4 .card-title1 
+{
+    font-size: 10px;
+}
+#courses .container4 .card-title 
+{
+    font-size: 13px;
+}
+#courses .container4 .card-text 
+{
+    width: 160px;
+    font-size: 13px;
+}
+}
