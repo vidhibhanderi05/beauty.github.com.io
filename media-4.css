@@ -14,10 +14,20 @@ body
 {
     font-size: 15px;
 }
-#header #heading1 .social-media
+#header .social-media
 {
-    padding: 0;
-    margin-left: 71%;
-    font-size: 3px;  
+  padding: 0;
+  margin-left: 67%;
+  font-size: 15px;  
+}
+.navbar-nav
+{
+    margin-left: 48%;
+}
+#appointment .appointment-content-2 .img2 
+{
+    width: 380px; 
+    height: 420px;  
+
 }
 }

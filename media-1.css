@@ -24,42 +24,38 @@
     font-size: 13px; 
     letter-spacing: 4px; 
 }
-#offcanvasNavbar .offcanvas-body
+ #offcanvasNavbar .offcanvas-body
 {
    background-color:#fcbbbb;
    width: 100%;
 }
-.navbar-toggler
-{
-  margin-top: 0%;
-}
 #offcanvasNavbar
 {
-   width: 65%;
+   width: 60%;
 }
 #offcanvasNavbar .offcanvas-header
 {
    width: 100%;
-   height: 40px;
-   margin-left: 20%;
+   height: 35px;
    background-color: gray;
-}
-
-#offcanvasNavbar .navbar-nav .nav-item a
-{
-   width: 50%;
-   font-size: 10px;
-  margin-left: 1%;
-  color: black;
 }
 .container-fluid 
 {
    height: 70px;
-   margin-top: 6.5%;
+   margin-top: 6%;
 }
 .logo
 {
    margin-top: 4%;
+}
+.logo p
+{
+    font-size: 10px;
+   margin-left: 8%;
+}
+.navbar-nav
+{
+    margin-left: 0;
 }
 .carousel-inner .contant
 {
@@ -68,6 +64,10 @@
     margin-top: 0%;
     background-image: url(images/slider\ img-1.jpg);
     background-size: cover;
+}
+.carousel-inner
+{
+    margin-top: 27%;
 }
 .carousel-inner .carousel-item
 {
@@ -98,10 +98,12 @@
 #carouselExampleFade  .carousel-control-prev
 {
    width: 10%;
+   margin-top: 22%;
 }
 #carouselExampleFade  .carousel-control-next
 {
    width: 10%;
+   margin-top: 22%;
 }
 #ourservices .container .service-head h3
 {
@@ -136,13 +138,7 @@
 #ourservices .container .btn
 {
     font-size: 10px; 
-    margin-left: 12%;
-    background-color: white;
-}
-#ourservices .container .services-btn
-{ 
-    width: 150px;
-    margin-left: 0%;
+     margin-top: 2%;
 }
 #brides .container2 .bridal-head h3
 {
@@ -166,9 +162,9 @@
 #brides  .content-box 
 {
     width: 75%;
-    height: 330px; 
+    height: 350px; 
     margin-left: 12%;
-    margin-top: 1%;
+    margin-top: 20%;
 }
 #brides .title
 {
@@ -209,7 +205,6 @@
     height: 270px; 
     margin-top: 8%; 
     margin-left: 15%; 
-    box-shadow: 2px 2px 5px 5px rgb(206, 206, 206);
 }
 #brides .content3 .seemore-btn
 {
@@ -246,7 +241,6 @@
 }
 #courses .container4 .card-body
 {
-   
    box-shadow: 0px 0px 3px 1px gray inset;
 }
 #courses .container4 .card-img-top
@@ -333,14 +327,15 @@
 }
 #footer .container7 .footer-content
 {
-    width: 95%;
-    height: 500px;
+    width: 90%;
+    height: 100%;
     background-color: #7e7e7e;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 #footer .container7 .footer-logo
 {
    width: 40%;
+   margin-top:0%;
 }
 #footer .container7 .footer-para
 {
@@ -358,7 +353,7 @@
 {
    list-style-type: none;
    font-size: 15px;
-   margin-top: 5% ;
+   margin-top: 3% ;
 }
 #footer .container7 .h6
 {
@@ -366,10 +361,90 @@
 }
 #footer .container7 .contact-detail
 {
-   margin-left:8% ;
+   margin-left:5% ;
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #footer .container7 .contact-footer-links
 {
-   margin-top: 4%;
+   margin-top: 3%;
+}
+#service-slide .service-contant
+{
+   
+    height: 200px;
+    margin-top: 25%;
+}
+#carouselExample .carousel-inner
+{
+    height:240px;
+}
+#carouselExample .carousel-item .card-img-top
+{
+    width: 100%;
+    margin-left: 0;
+}
+#carouselExample  .carousel-control-prev
+{
+    width: 40%;
+}
+#carouselExample  .carousel-control-next
+{
+    width: 40%;
+}
+#course-slide img
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 10%;
+}
+#appointment .container5 .img-fluid
+{
+    width: 90%;
+    height: 350px;
+    margin-top: 20%;
+    margin-left: 3%;
+}
+#appointment .appointment-content-2 .content3
+{ 
+    width: 75%;
+    margin-top: 6%;
+    margin-left: 12%;
+}
+#appointment .appointment-content-2 .getservices-btn
+{
+    width: 45%; 
+    margin-left:28%;
+}
+#appointment .appointment-content-2 .img2 
+{
+    width: 250px; 
+    height: 300px;
+    margin-left: 15%;  
+    margin-top: 7%;
+}
+#contact-us .content-box
+{
+    width: 80%;
+    height: 300px;
+    margin-left: 9%;
+}
+#contact-us .content-box .time
+{
+    margin-left: 30%;
+}
+#contact-us .contact-content .contact-form
+{
+    width:75%;
+    margin-top: 7%;
+}
+#contact-us  .contact-form .msg-btn
+{
+    width: 40%;
+}
+#map .google-map
+{
+    margin-top: 22%;
 }
 }
+

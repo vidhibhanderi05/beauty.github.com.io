@@ -16,13 +16,16 @@
     <link rel='stylesheet' type='text/css' media='screen' href='media-3.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='media-4.css'>
     
-    <!-- bootstrap css link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!-- aos cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      
 </head>
 <body>
@@ -30,10 +33,10 @@
     <!-- header -->
 
     <section id="header" class="fixed-top">       
-            <div class="leftsidebar mt-2">
+            <div class="leftsidebar mt-1">
                 <h6 class="text-light">opening hours : Monday to Saturday</h6>
             </div>
-            <div class=" social-media  text-light p-0  mt-1">
+            <div class=" social-media  text-light p-0  mt-0">
                 <span class="bi bi-facebook "></span>
                 <span class="bi bi-instagram "></span>
                 <span class="bi bi-google "></span>
@@ -43,34 +46,37 @@
 
       <!-- navbar -->
     
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100px;">
-        <div class="container-fluid">
-            <h4 class="logo text-white">B L O O M<br><p  style="font-size: 11px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">BEAUTY STUDIO</p></h4>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid ">
+            <h4 class="logo text-white  ms-1 ">B L O O M<br><p>BEAUTY STUDIO</p></h4>
 
-          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button class="navbar-toggler mt-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="bi bi-list" style="color: white; font-size: 28px;"></span> 
+            </button>
+            <div class="offcanvas offcanvas-end  " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              
+            <div class="offcanvas-body " id="offcanvasNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" style="color:rgb(95, 95, 95)" href="index.html">HOME</a></li>
+                <li class="nav-item"> 
+                  <a class="nav-link text-white" href="services.html">SERVICES</a></li>
+                <li class="nav-item"> 
+                  <a class="nav-link text-white" href="ourbridal.html">BRIDAL</a></li>
+                <li class="nav-item"> 
+                  <a class="nav-link text-white" href="ourcourses.html">COURSES</a></li>
+                <li class="nav-item"> 
+                  <a class="nav-link text-white" href="appointment.html">APPOINTMNET</a></li>
+                <li class="nav-item"> 
+                  <a class="nav-link text-white" href="contactus.html">CONTACT US</a></li>
+              </ul>
             </div>
-            
-          <div class="offcanvas-body " id="offcanvasNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color:rgb(95, 95, 95)" href="index.html">HOME</a></li>
-              <li class="nav-item"> 
-                <a class="nav-link text-white" href="services.html">SERVICES</a></li>
-              <li class="nav-item"> 
-                <a class="nav-link text-white" href="bride.html">BRIDAL</a></li>
-              <li class="nav-item"> 
-                <a class="nav-link text-white" href="course.html">COURSES</a></li>
-              <li class="nav-item"> 
-                <a class="nav-link text-white" href="appointment.html">APPOINTMNET</a></li>
-              <li class="nav-item"> 
-                <a class="nav-link text-white" href="#">CONTACT US</a></li>
-            </ul>
-          </div>
+              </div>
+            </nav>
+          
         </div>
       </nav>
 
@@ -80,12 +86,7 @@
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <div class="contant p-1">
-              <h2>BEAUTY, MAKEUP <br> & SKINCARE</h2>
-            <div class="mt-1">
-             <button class="search-btn btn-light" type="button">&nbsp;SEARCH & ENTER<span class=" icon bi bi-search "></span></button>
-            </div>
-          </div>
+            <img src="images/slider img-1.jpg" class="d-block w-100" alt="...">
           </div>
 
           <div class="carousel-item">
@@ -111,7 +112,7 @@
       <!-- services -->
 
     <section class="services py-2" id="ourservices">
-      <div class="container">
+      <div class="container"  data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
         <div class="service-head ">
           <h3>OUR<span class="text-secondary">&nbsp;SERVICES</span><br><p class=" 
           text-secondary">hair,make-up & beauty</p></h3>
@@ -169,8 +170,8 @@
           </div>
         </div>
 
-        <div class="services-btn gap-2 col-6 mx-auto mt-4">
-          <button class="btn btn-light" type="button">VIEW ALL SERVICES</button>
+        <div class=" gap-2 col-6 mx-auto text-center">
+          <button class="btn" type="button">VIEW ALL SERVICES</button>
         </div>
       </div>
     </section>
@@ -216,14 +217,14 @@
         </div>
         </div>
 
-        <div class="col-md-5">
+        <div class="col-md-5" data-aos="fade-left" data-aos-anchor="#example-anchor"data-aos-offset="1500"data-aos-duration="1500">
           <img src="images/bride1.jpg" class="img1" alt="...">
         </div>
     </div>  
 
   
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5"  data-aos="fade-right" data-aos-anchor="#example-anchor"data-aos-offset="1500"data-aos-duration="1500">
         <img src="images/bride2.jpg" class="img2" alt="...">
       </div>
         
@@ -248,7 +249,6 @@
        <div class="card-group mt-0 ">
         <div class="card">
           <img src="images/img1.jpg" class="card-img-top" alt="...">
-           <button class="register-btn btn-light" type="button">Register Now</button>
           <div class="card-body">
             <h6 class="card-title1 ">HAIR STYLE CLASS<span class="text-secondary "> | 3 to 5 months</span></h6>
             <h5 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
@@ -258,7 +258,6 @@
 
         <div class="card">
           <img src="images/img2.jpg" class="card-img-top" alt="...">
-          <button class="register-btn btn-light" type="button">Register Now</button>
           <div class="card-body">
             <h6 class="card-title1">MAKE-UP CLASS<span class="text-secondary "> | 3 to 5 months</span></h6>
             <h5 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
@@ -268,7 +267,6 @@
 
         <div class="card">
           <img src="images/img3.jpeg" class="card-img-top" alt="...">
-          <button class="register-btn btn-light" type="button">Register Now</button>
           <div class="card-body">
             <h6 class="card-title1">BEAUTY CLASS<span class="text-secondary "> | 3 to 5 months</span></h6>
             <h5 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
@@ -354,7 +352,7 @@
           <div class="card">
             <div class="card-body">
                <i class="bi bi-quote"></i>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam tempora, reiciendis voluptate cum reprehenderit eius autem atque consectetur!</p>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quis repellat distinctio possimus ea placeat quia nemo, praesentium, blanditiis !</p>
               <img src="images/client2.avif" class="card-img-top shadow">
             </div>
           </div>
@@ -373,7 +371,7 @@
        <section class="contact us" id="footer">
         <div class="container7 mt-3">
 
-          <div class=" footer-content ">
+          <div class=" footer-content">
             <div class="row">
               <div class="col-md-3">
                 <ul class="footer-links ms-3 mt-5">
@@ -434,16 +432,18 @@
                    <span class="h6 text-white " style="font-weight: 700;">CONTACT US</span>
 
           
-                    <div class="phone mt-4">
+                    <div class="phone mt-3">
                      <span class="contact-detail bi bi-telephone-fill text-white" style="letter-spacing: 1px;">&nbsp; (+91) 98657 87843</span>
                     </div>
 
-                    <div class="Email mt-3">
+                    <div class="Email mt-2">
                       <span class="contact-detail bi bi-envelope-fill text-white" style="letter-spacing: 1px;">&nbsp; bloombeautystudio@gmail.com</span>
                     </div>
 
-                    <div class="location mt-3">
-                   <span class="contact-detail bi bi-geo-alt-fill text-white ">&nbsp;  Bloom beauty studio, Akshar<br> &nbsp; Complex,&nbsp;1ST Floor,&nbsp;Patel Girls Hostel,<br>University Road, Rajkot,Gujarat 360003<span>
+                    <div class="location mt-2">
+                   <span class="contact-detail bi bi-geo-alt-fill text-white">Bloom beauty studio,Akshar Complex,1ST Floor &nbsp; Girls Hostel,University Road, Rajkot,Gujarat 360003><span>
+
+                  
                     </div>
                 </div>
             </div>
@@ -452,5 +452,12 @@
          </div>
          </div>
         </section>
+
+        <!-- aos script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>

@@ -19,6 +19,10 @@ body
     padding: 4px;
     letter-spacing: 5px;
 }
+.navbar
+{
+    height: 100px;
+}
 .container-fluid
 {
     height: 70px;
@@ -28,17 +32,41 @@ body
 .logo
 {
     font-family: poppins; 
-    margin-top: 2%;
-    font-weight: 600;
+    margin-top: 1.5%;
+    font-weight: 700;
 }
-.navbar-nav li a
+.logo p
 {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-left: 5%; 
 }
-#offcanvasNavbar .navbar-nav
+.navbar-nav
 {
-    margin-left: 54.5%; 
+    margin-left: 51%;
+}
+#offcanvasNavbar .navbar-nav .nav-item a
+{
+  font-weight: 600;
+}
+.carousel-inner
+{
+    margin-top: 7%;
+}
+.carousel-inner .carousel-item
+{
+    height: 500px;
+  
+}
+#carouselExampleFade  .carousel-control-prev
+{
+   width: 10%;
+   
+}
+#carouselExampleFade  .carousel-control-next
+{
+   width: 10%;
+  
 }
 #ourservices .container .service-head h3
 {
@@ -53,48 +81,6 @@ body
     font-size: 14px; 
     font-weight: 400;
     margin-left: 2%;
-}
-.carousel-inner .contant
-{
-    width: 100%;
-    height: 500px;
-    margin-top:0;
-    background-image: url(images/slider\ img-1.jpg);
-    background-size: cover;
-}
-.carousel-inner .carousel-item
-{
-    height: 500px;
-  
-}
-.contant h2
-{
-    margin-top: 14%;
-    margin-left: 8%;
-    color: white;
-}
-.search-btn
-{
-    border: solid 1px black;
-    width: 20%;
-    text-align: start; 
-    font-size: 10px; 
-    padding: 6px; 
-    margin-left:8%;
-}
-.icon
-{
-    margin-left: 60%;
-}
-#carouselExampleFade  .carousel-control-prev
-{
-   width: 10%;
-   
-}
-#carouselExampleFade  .carousel-control-next
-{
-   width: 10%;
-  
 }
 .card-group .card
 {
@@ -136,14 +122,10 @@ body
 {
     font-size: 12px; 
     color: gray; 
+    border-radius:1px;
+    border: solid 1px rgb(90, 90, 90);
     font-weight:700;
-    margin-left: 8%;
-}
-#ourservices .container .services-btn
-{
-    width: 15%; 
-    border:solid 1px gray; 
-    margin-left: 2%;
+    margin-top: 4%;
 }
 #brides .container2 .bridal-head h3
 {
@@ -162,7 +144,7 @@ body
 {
     color: #E3A2A2;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     font-weight: 550;
 }
 #brides .text
@@ -171,7 +153,7 @@ body
     font-weight: 600;
     color: gray;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 #brides .content-box
 {
@@ -269,14 +251,6 @@ body
 {
     height: 270px;
 }
-#courses .container4 .register-btn
-{
-     width: 100%;
-     background-color: rgb(190, 190, 190);
-     border: solid 1px rgb(161, 161, 161);
-     color: rgb(104, 104, 104);
-     padding: 5px;
-}
 #courses .container4 .card-title1 
 {
     font-size: 12px;
@@ -303,7 +277,6 @@ body
     margin-top: 4%;
     margin-left: 10%;
 }
-
 #appointment .container5 .form-heading
 {
    height: 500px;
@@ -313,6 +286,12 @@ body
 {
    color: gray;
    font-weight: 600;
+}
+#appointment .container5 .form-group .appointment-btn
+{
+    border: solid 1px black; 
+    font-size: 10px; 
+    padding: 8px;
 }
 #reviews .container6 .review-head h3
 {
@@ -396,13 +375,140 @@ body
     font-family: poppins;
     font-weight: 600;
 }
-.service-contant
+#service-slide .service-contant
 {
     width: 100%;
-    height: 500px;
+    height: 540px;
     background-image: url(images/services.jpg);
     background-size: cover;
+    margin-top: 8%;
+}
+#brides .container2
+{
+    margin-top: 10%;
+}
+#bride-gallery .bridal-head h3
+{
+    font-size: 22px; 
+    color: #FFADAD;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#bride-gallery .bridal-head p
+{
+    font-size: 14px; 
+    font-weight: 400;
+    margin-left: 0%;
+}
+#carouselExample .carousel-inner
+{
+    height:450px;
+}
+ #carouselExample .carousel-inner .card
+{
+    border: none;
+}
+#carouselExample .carousel-inner .card-img-top
+{
+    height: 380px;
 }
 
+#carouselExample  .carousel-control-prev
+{
+    height: 90%;
+}
+#carouselExample  .carousel-control-next
+{
+   height: 90%;
+}
+#course-slide img
+{
+    width: 100%;
+}
+#appointment .appointment-content-2 .img2 
+{
+    width: 450px; 
+    height: 550px;  
+    margin-left:20%;
+    margin-top: 5%;
+    box-shadow: 10px 10px rgb(182, 181, 181) ; 
+}
+#appointment .appointment-content-2 .content3
+{ 
+    width: 30%;
+    height: 280px; 
+    margin-top: 10%; 
+    margin-left: 10%;
+    box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
+}
+#appointment .appointment-content-2 .getservices-btn
+{
+    width: 35%; 
+    padding: 8px;
+    border:solid 1px black; 
+    margin-left:33%;
+    margin-top: 3%;
+    font-size: 10px;
+    color: black;
+}
+#appointment .appointment-content-2 .para2-text
+{
+   width: 85%;
+   text-align: center;
+   font-size: 13px;
+   color: gray;
+   margin-top: 5%;
+   margin-left: 8%;
+}
+#appointment .appointment-content-2 .title2
+{
+    color: #000000;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 550;
+}
+#contact-us .content-box
+{
+    width: 40%;
+    height: 330px;
+    margin-top: 3%; 
+    margin-left: 8%;
+    background-image: url(images/contact\ img.jpg);
+    background-size:cover ;
+}
+#contact-us .img1
+{
+    width: 370px; 
+    height: 440px;  
+    margin: 1px;
+    margin-left: 10%;
+    box-shadow: 10px 10px rgb(182, 181, 181) ; 
+}
+#contact-us .content-box 
+{
+    margin-top: 3%;
+}
+#contact-us .content-box .time
+{
+    margin-left: 60%;
+    color: white;
+}
+#contact-us .contact-content .contact-form
+{
+    margin-top: 3%;
+}
+#contact-us  .contact-form .msg-btn
+{
+    width: 20%;
+    font-size: 12px;
+    padding: 4px;
+    border: solid 1px;
+    background-color: white;
+}
+#contact-us .content-box hr
+{
+    color: white;
+}
 
 

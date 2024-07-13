@@ -5,38 +5,45 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box !important;
-
-}
-#header #heading1
-{
-   display: flex;
-   flex-direction: row;
+   overflow-x: hidden;
 }
  #heading1 .leftsidebar h6
  {
     font-size: 15px;
  }
-#header #heading1 .social-media
-{
-    padding: 0;
-    margin-left: 54%;
-    font-size: 3px;  
-}
+ #header  .social-media
+ {
+     margin-left: 52%;
+     font-size: 15px; 
+     letter-spacing: 4px; 
+ }
 .logo
 {
    margin-top: 2%;
 }
-#offcanvasNavbar .offcanvas-body
-{
-   padding: 5px;
-}
-.navbar-toggler
-{
-  margin-top: 0%;
-}
 .btn-close
 {
    margin-left: 92%;
+}
+#offcanvasNavbar .offcanvas-body
+{
+   background-color:#fcbbbb;
+   width: 100%;
+   margin-left: 0%;
+}
+#offcanvasNavbar
+{
+   width: 40%;
+}
+#offcanvasNavbar .offcanvas-header
+{
+   width: 100%;
+   height: 35px;
+   background-color: gray;
+}
+.navbar-nav
+{
+    margin-left: 5%;
 }
 .contant
 {
@@ -90,76 +97,81 @@
    font-size: 10px;
    margin-top: 5%;
 }
-#brides  .title
+#brides .content-box
 {
-    margin-left: 5%;
-    margin-top: 4%;
-}
-#brides .content
-{
-    width: 48%;
-    height: 240px;
-    margin-left: 7.5%;
-    margin-top: 4%;
-}
-#brides .para-text
-{
-   width:97% ;
-   text-align: start;
-   font-size: 10px;
-   margin-left: 4%;
-}
-#brides .para2 h6
-{
-   margin-left: 5%;
-   font-size: 10px;
-   font-weight: 600;
-}
-#brides .box
-{  
-    width: 240px; 
-    height: 280px; 
-    padding: 5px;
-    margin-left: 5%;   
+    width: 45%;
+    height: 370px;
+    box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
+    margin-top: 8%; 
+    margin-left: 6%;
 }
 #brides .img1
 {
-    width: 250px; 
-    height: 300px; 
-    padding: 1px; 
+    width: 380px; 
+    height: 420px;  
+    margin-left: 4%;
+    margin-top: 13%;
 }
-#brides .content2
+#brides .img2 
 {
-    width: 20%; 
-    margin-left:4%; 
-    margin-top: 4%;
-}
-#brides .img2
-{
-    width: 350px; 
-    height: 390px; 
-    padding: 6px; 
-    margin: 1px;
-}
-#brides .box2
-{ 
-    width: 320px; 
-    height: 370px; 
-    padding: 5px;
-    margin-left: 15%;   
+    width: 90%; 
+    height: 320px;  
+    margin-left:15%;
+    margin-top: 8%;
+    box-shadow: 10px 10px rgb(182, 181, 181) ; 
 }
 #brides .content3
 { 
-    width: 32%;
-    height: 280px; 
-    margin-top: 10%; 
-    margin-left: 38%;
-    border:solid 1px; 
+    width: 35%;
+    height: 250px; 
+    margin-top: 8%;
+    margin-left: 15%;
+    box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
 }
 #brides .content3 .seemore-btn
 {
-    width: 30%; 
-    margin-left: 35%;
+    margin-top: 3%;
+}
+#brides .content3 .para2-text
+{
+   margin-top: 3%;
+}
+#brides .content3 .title2
+{
+    margin-top: 5%;
+}
+#appointment .container5 .img-fluid
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+#appointment .container5 .form-heading
+{
+   height: 500px;
+   background-color: rgb(242, 242, 242);
+   margin-left: 0;
+   padding: 1px;
+}
+#appointment .appointment-content-2 .img2 
+{
+    width: 380px; 
+    height: 330px;  
+    margin-left:5%;
+}
+#appointment .appointment-content-2 .content3
+{ 
+    width: 35%;
+    height: 280px; 
+    margin-top: 6%; 
+    margin-left: 6%;
+    box-shadow:2px 2px 5px 5px rgb(206, 206, 206);
+}
+#appointment .appointment-content-2 .getservices-btn
+{
+    width: 50%; 
+    margin-left:25%;
 }
 #courses .container4 .card-img-top
 {
@@ -182,5 +194,65 @@
 {
     width: 160px;
     font-size: 13px;
+}
+#reviews .container6 .card-img-top
+{
+    width: 40%; 
+    height: 25%; 
+    margin-top: 2%;
+}
+#footer .container7 .footer-content
+{
+    height: 350px;
+}
+#footer .container7 .footer-para
+{
+    font-size: 14px;
+}
+#footer .container7 .footer-social-media
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-left: 1%;
+    color: white;
+}
+#footer .container7 .footer-links 
+{
+   list-style-type: none;
+   font-size: 15px;
+   margin-top: 42% ;
+}
+#footer .container7 .contact-footer-links
+{
+   margin-top: 24%;
+
+}
+#footer  .contact-footer-links .contact-detail
+{
+    font-size: 12px;
+}
+#map .google-map
+{
+    margin-top: 5%;
+}
+#contact-us  .contact-form .msg-btn
+{
+    width: 40%;
+}
+#contact-us .content-box
+{
+    width: 45%;
+    height: 300px;
+    margin-top: 6%; 
+    margin-left: 5%;
+}
+#contact-us .contact-content .contact-form
+{
+    width:40%;
+    margin-top: 3%;
+}
+#contact-us .content-box .time
+{
+    margin-left: 42%;
 }
 }
